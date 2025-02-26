@@ -10,6 +10,7 @@ fn visit_tuple_first_elem(t: (u32, u32, u32)) -> u32 {
 }
 
 mod test {
+    #![allow(unused_imports)]
     use super::*;
     #[test]
     fn test_visit_tuple_first_elem() {
